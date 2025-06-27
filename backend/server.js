@@ -47,7 +47,7 @@ const authLimiter = rateLimit({
 const allowedOrigins = [
   'http://localhost:3000',
   'http://localhost:5173',
-  'https://campus-cruz.vercel.app',
+  'https://campuscruz-fe.vercel.app',
   process.env.FRONTEND_URL
 ].filter(Boolean); // Remove undefined values
 
